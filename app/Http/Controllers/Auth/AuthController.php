@@ -69,4 +69,12 @@ class AuthController extends Controller
             'password' => bcrypt($data['password']),
         ]);
     }
+
+	public function showRegistrationForm(){
+		return redirect('login')->withErrors("des-habilitada la alta de nuevos usuarios");
+	}
+
+	public function register(){
+		return redirect('login')->withErrors("des-habilitada la alta de nuevos usuarios");
+	}
 }
