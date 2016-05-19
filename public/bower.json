@@ -1,0 +1,25 @@
+{
+  "name": "Slow Queries Analiser",
+  "homepage": "https://github.com/kytel0925/slow-queries-analiser",
+  "description": "Analizador de consultas lentas usando el log de mysql",
+  "main": "",
+  "moduleType": [],
+  "authors": [
+    "Telmo Rafael Riofrio Tigse <kytel0925@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6",
+    "react": "^15.0.2",
+    "font-awesome": "^4.6.3"
+  }
+}
